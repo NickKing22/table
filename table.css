@@ -1,0 +1,84 @@
+/* This sets the background image and parameters of the image */
+body
+    {
+        margin: 0;
+        padding: 0;
+        background: url(spacepic4.jpg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+/*This is the parameters for the header*/
+h1
+    {
+        /*This sets the alignment of the header*/
+        text-align: center;
+        /*This determines the position of the header*/
+        position: relative;
+        /*This sets how far from the top the header will be*/
+        top: 50px;
+        /*This determines how far from the left the header will be*/
+        left: calc(10% - 10%);
+        /*This sets the text font*/
+        font-weight: bold;
+        /*This is the color of the text*/
+        color: white;
+    }
+
+img
+    {
+    /*This sets the width of the image*/
+    width: 300px;
+    /*This sets the height of the image*/
+    height: 300px;
+    /*This makes the border of the image round*/
+    border-radius: 50%;
+    /*This sets the position of the image*/
+    position: absolute;
+    /*This sets hoe far from the top the image will be*/
+    top: -50px;
+    /*This sets how far from the left the image will be*/
+    left: calc(10% - 10px);
+    }
+
+table
+{
+    /*This sets the border for the table*/
+    border-collapse: collapse;
+}
+
+table td
+{
+    /*This sets the type of border that the table will have*/
+    border: 5px double rgb(255, 255, 255);
+    /*This sets how big the table cells will be*/
+    padding: 4px 500px 4px 8px;
+    /*This will set where the text will be placed within the cells*/
+    text-align: left;
+}
+
+table th
+    {
+    /*This determines where the text will be placed within the cells*/
+    text-align: left;
+    /*This is background for the table header*/
+    background-color: black;
+    /*This is color of the table header*/
+    color: white;
+    /*This is how far the text will be from the border*/
+    padding: 4px 30px 4px 8px;
+    }
+/*This is for every odd cell*/
+table tr:nth-child(odd)
+    {
+        /*This sets the background color of every odd cell*/
+        background-color:lightgrey;
+        /*This is color of the text for every odd cell*/
+        color: black;
+    }   
+/*This is for every even cell*/
+table tr:nth-child(even)
+    {
+        /*This is the color of every even cell*/
+        color: white;
+    }
